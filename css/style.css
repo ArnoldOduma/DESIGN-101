@@ -3,6 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+.link{
+  position: absolute;
+  left: 50%;
+  max-width: 100%;
+  transform: translate(-50%);
+  background: rgb(255, 255, 255);
+  border-radius: 0px 10px ;
+  cursor: pointer;
+  text-align: center;
+}
+.link a{
+  display: inline-block;
+  position: relative;
+  padding: 10px 100px;
+}
+.link:hover{
+  background: rgb(0, 132, 255);
+  color: white;
+}
 .load-container{
   width: 100vw;
   height: 50vh;
@@ -14,7 +38,7 @@
   display: inline-block;
   /* background: rgba(255, 255, 255, 0.068); */
   border-radius: 40px;
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 .ball{
   width: 10px;
